@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+:root {
+  --color-cream: #f6f0e6;
+  --color-ink: #12161f;
+  --color-rust: #a0563b;
+  --color-sky: #d6e4ee;
+}
+
+@theme inline {
+  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --font-sans: "Avenir Next", "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top right, rgba(214, 228, 238, 0.75), transparent 32%),
+    radial-gradient(circle at bottom left, rgba(160, 86, 59, 0.08), transparent 30%),
+    var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hero-grid {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)),
+    repeating-linear-gradient(
+      90deg,
+      rgba(18, 22, 31, 0.03) 0,
+      rgba(18, 22, 31, 0.03) 1px,
+      transparent 1px,
+      transparent 72px
+    );
+}
+
+.section-kicker {
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--color-rust);
+}
+
+.section-title {
+  max-width: 48rem;
+  font-family: var(--font-display);
+  font-size: clamp(2.75rem, 6vw, 4.75rem);
+  line-height: 0.98;
+}
+
+.button-primary,
+.button-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  border-radius: 999px;
+  padding: 0.95rem 1.4rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  transition:
+    transform 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease;
+}
+
+.button-primary {
+  background: var(--color-ink);
+  color: white;
+}
+
+.button-secondary {
+  border: 1px solid rgba(18, 22, 31, 0.12);
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.button-primary:hover,
+.button-secondary:hover {
+  transform: translateY(-1px);
+}
+
+.input-field {
+  width: 100%;
+  border: 1px solid rgba(18, 22, 31, 0.12);
+  border-radius: 1.25rem;
+  padding: 0.95rem 1rem;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  outline: none;
+}
+
+.input-field:focus {
+  border-color: rgba(18, 22, 31, 0.32);
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.07);
+  padding: 1rem 1.1rem;
+  transition: background-color 180ms ease;
+}
+
+.contact-row:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
