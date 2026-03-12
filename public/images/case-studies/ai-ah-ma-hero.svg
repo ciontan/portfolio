@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#fbf3e8"/>
+  <rect x="80" y="80" width="1440" height="740" rx="48" fill="#fffaf5"/>
+  <circle cx="1250" cy="250" r="150" fill="#ffd7b8"/>
+  <rect x="150" y="150" width="1300" height="220" rx="34" fill="#111827"/>
+  <rect x="150" y="430" width="400" height="250" rx="30" fill="#f6d4c7"/>
+  <rect x="600" y="430" width="400" height="250" rx="30" fill="#dbeafe"/>
+  <rect x="1050" y="430" width="400" height="250" rx="30" fill="#d1fae5"/>
+  <text x="150" y="270" fill="#fffaf5" font-family="Arial, sans-serif" font-size="64" font-weight="700">AI Ah Ma Case Study Hero</text>
+</svg>

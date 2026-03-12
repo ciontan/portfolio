@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200">
+  <rect width="1600" height="1200" fill="#edf2f7"/>
+  <rect x="100" y="100" width="1400" height="1000" rx="52" fill="#ffffff" stroke="#1f2937" stroke-opacity=".08"/>
+  <rect x="180" y="180" width="1240" height="180" rx="36" fill="#111827"/>
+  <rect x="180" y="430" width="340" height="520" rx="32" fill="#dbeafe"/>
+  <rect x="570" y="430" width="420" height="240" rx="32" fill="#f3ede4"/>
+  <rect x="1030" y="430" width="390" height="240" rx="32" fill="#f6d4c7"/>
+  <rect x="570" y="710" width="850" height="240" rx="32" fill="#e5e7eb"/>
+  <text x="180" y="295" fill="#fffaf5" font-family="Arial, sans-serif" font-size="64" font-weight="700">Urban Research Assistant</text>
+  <text x="180" y="1030" fill="#6b7280" font-family="Arial, sans-serif" font-size="42">Replace with your real project cover image</text>
+</svg>

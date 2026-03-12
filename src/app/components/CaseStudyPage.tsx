@@ -29,8 +29,10 @@ export function CaseStudyPage() {
           <p className="max-w-3xl text-xl leading-8 text-black/62">{study.subtitle}</p>
         </div>
 
-        <div className="mb-16 aspect-[16/9] overflow-hidden rounded-[2rem] bg-white">
-          <ImageWithFallback src={study.heroImage} alt={study.title} className="h-full w-full object-cover" />
+        <div className="mb-16 overflow-hidden rounded-[2rem] border border-black/8 bg-[var(--color-cream)] p-4">
+          <div className="flex max-h-[80vh] min-h-[18rem] items-center justify-center">
+            <ImageWithFallback src={study.heroImage} alt={study.title} className="max-h-[78vh] w-full object-contain" />
+          </div>
         </div>
 
         <div className="grid gap-10 border-b border-black/8 pb-16 md:grid-cols-4">
@@ -61,15 +63,73 @@ export function CaseStudyPage() {
               ) : null}
             </div>
 
-            {section.image ? (
-              <div className="mx-auto mb-10 max-w-7xl overflow-hidden rounded-[2rem]">
-                <div className="aspect-[16/9]">
-                  <ImageWithFallback src={section.image} alt={section.title} className="h-full w-full object-cover" />
+            {section.galleryImages?.length ? (
+              <div className="mx-auto mb-10 grid max-w-7xl gap-8 lg:grid-cols-[minmax(0,1.05fr)_minmax(20rem,0.95fr)] lg:items-start">
+                <div>
+                  {section.cards ? (
+                    <div className={`grid gap-6 ${section.cardColumns === 2 ? "md:grid-cols-2" : ""}`}>
+                      {section.cards.map((card) => (
+                        <article
+                          key={card.title}
+                          className={`${section.theme === "dark" ? "bg-white text-[var(--color-ink)]" : "bg-[var(--color-cream)]"} rounded-[1.5rem] p-8`}
+                        >
+                          <h3 className="mb-4 font-display text-2xl">{card.title}</h3>
+                          <p className="leading-7 text-black/62">{card.body}</p>
+                          {card.bullets ? (
+                            <ul className="mt-5 space-y-3 text-black/68">
+                              {card.bullets.map((bullet) => (
+                                <li key={bullet} className="flex gap-3">
+                                  <span>•</span>
+                                  <span>{bullet}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          ) : null}
+                        </article>
+                      ))}
+                    </div>
+                  ) : null}
+                </div>
+                <div className="rounded-[2rem] border border-black/8 bg-[var(--color-cream)] p-4">
+                  <div className="grid grid-cols-6 gap-3">
+                    {section.galleryImages.map((image, index) => {
+                      const total = section.galleryImages?.length ?? 0;
+                      const spanClass =
+                        total === 5
+                          ? index < 3
+                            ? "col-span-2"
+                            : "col-span-3"
+                          : total === 2
+                            ? "col-span-3"
+                            : "col-span-2";
+
+                      return (
+                        <div
+                          key={image}
+                          className={`${spanClass} flex min-h-[12rem] items-center justify-center overflow-hidden rounded-[1.25rem] bg-white p-3`}
+                        >
+                          <ImageWithFallback
+                            src={image}
+                            alt={`${section.title} screenshot ${index + 1}`}
+                            className="max-h-[32rem] w-full object-contain"
+                          />
+                        </div>
+                      );
+                    })}
+                  </div>
                 </div>
               </div>
             ) : null}
 
-            {section.cards ? (
+            {section.image ? (
+              <div className="mx-auto mb-10 max-w-7xl overflow-hidden rounded-[2rem] border border-black/8 bg-[var(--color-cream)] p-4">
+                <div className="flex min-h-[18rem] items-center justify-center">
+                  <ImageWithFallback src={section.image} alt={section.title} className="max-h-[80vh] w-full object-contain" />
+                </div>
+              </div>
+            ) : null}
+
+            {section.cards && !section.galleryImages?.length ? (
               <div className={`mx-auto grid max-w-4xl gap-6 ${section.cardColumns === 2 ? "md:grid-cols-2" : ""}`}>
                 {section.cards.map((card) => (
                   <article

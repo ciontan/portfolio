@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f5efe6"/>
+  <rect x="100" y="100" width="1000" height="1300" rx="60" fill="#fffaf5"/>
+  <circle cx="600" cy="520" r="220" fill="#f6d4c7"/>
+  <rect x="320" y="820" width="560" height="320" rx="120" fill="#dbeafe"/>
+  <text x="180" y="1280" fill="#111827" font-family="Arial, sans-serif" font-size="62" font-weight="700">About Portrait</text>
+  <text x="180" y="1360" fill="#6b7280" font-family="Arial, sans-serif" font-size="34">Replace with your headshot or profile image</text>
+</svg>

@@ -3,15 +3,13 @@ export const featuredProjects = [
     slug: "enableid",
     title: "EnableID",
     category: "Web App Design and Development",
-    image:
-      "https://images.unsplash.com/photo-1750056393326-8feed2a1c34f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/projects/enableid-cover.svg",
   },
   {
     slug: "ai-ah-ma",
     title: "AI Ah Ma",
     category: "Mobile App Design and UX Research",
-    image:
-      "https://images.unsplash.com/photo-1516321497487-e288fb19713f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    image: "/images/projects/ai-ah-ma-cover.svg",
   },
 ] as const;
 
@@ -57,8 +55,7 @@ export const projects: readonly Project[] = [
     year: "2024",
     description:
       "A web application that streamlines identification and resource access for refugees by unifying digital ID verification and support services. Led frontend development, UI/UX design, and automated testing using Cypress and Gherkin.",
-    image:
-      "https://images.unsplash.com/photo-1750056393326-8feed2a1c34f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/projects/enableid-cover.svg",
     tags: ["React", "UI/UX", "RAG", "Cypress", "Top 2 in Module"],
     organization: "Gebirah",
     caseStudyLink: "/work/enableid",
@@ -70,8 +67,7 @@ export const projects: readonly Project[] = [
     year: "2024",
     description:
       "A language learning app that combines AI with user-centered design to strengthen intergenerational connections through Cantonese conversation. Led design and development from user research to interactive prototyping.",
-    image:
-      "https://images.unsplash.com/photo-1516321497487-e288fb19713f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    image: "/images/projects/ai-ah-ma-cover.svg",
     tags: ["Figma", "UX Research", "AI", "HCI", "Team Lead"],
     organization: "Human-Computer Interaction Module",
     caseStudyLink: "/work/ai-ah-ma",
@@ -83,8 +79,7 @@ export const projects: readonly Project[] = [
     year: "2025",
     description:
       "A React Native and Expo app designed to help students and young professionals build meaningful relationships without the overwhelm of endless chats or large groups.",
-    image:
-      "https://images.unsplash.com/photo-1661246627162-feb0269e0c07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/projects/tangled-cover.svg",
     tags: ["React Native", "Expo", "Mobile Design", "80+ Users"],
     organization: "Independent Project",
     externalLink: "https://www.tangledsocial.com/",
@@ -96,8 +91,7 @@ export const projects: readonly Project[] = [
     year: "2024",
     description:
       "An AI-driven assistant that evaluates cities' submissions for the Lee Kuan Yew World City Prize. Led UI/UX research and implemented the full frontend in React.",
-    image:
-      "https://images.unsplash.com/photo-1771922748624-b205cf5d002d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/projects/urban-research-assistant-cover.svg",
     tags: ["React", "NLP", "AI", "Full-Stack"],
     organization: "Urban Redevelopment Authority",
     caseStudyLink: "/work/urban-research-assistant",
@@ -112,8 +106,7 @@ export const workExperience = [
     year: "Feb 2026 - Present",
     description:
       "Executing targeted CRM campaigns and A/B testing monetization workflows to enhance user lifetime value and improve ARPU through data-driven experimentation.",
-    image:
-      "https://images.unsplash.com/photo-1772272935464-2e90d8218987?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/experience/hello-group.svg",
     tags: ["Product Management", "A/B Testing", "CRM", "ARPU Growth"],
   },
   {
@@ -123,8 +116,7 @@ export const workExperience = [
     year: "May 2025 - Aug 2025",
     description:
       "Redesigned an officer-training portal to increase usability and workflow efficiency, developed full-stack features in React, and fine-tuned a RAG system for AI training simulations.",
-    image:
-      "https://images.unsplash.com/photo-1680016661694-1cd3faf31c3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/experience/cpfb.svg",
     tags: ["React", "Tailwind CSS", "RAG", "50% Speed Increase"],
   },
   {
@@ -134,15 +126,13 @@ export const workExperience = [
     year: "Aug 2024 - Jan 2025",
     description:
       "Designed a contact management dashboard in PowerApps, ran CFD simulations, and developed parametric 3D building models in Grasshopper and Rhino.",
-    image:
-      "https://images.unsplash.com/photo-1709803312782-0c3b175875ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/experience/whitby-wood-mills.svg",
     tags: ["PowerApps", "Rhino", "Grasshopper", "CFD", "CTBUH 2024"],
   },
 ] as const;
 
 export const profile = {
-  image:
-    "https://images.unsplash.com/photo-1709803312782-0c3b175875ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+  image: "/images/profile/about-portrait.svg",
   bio: [
     "I'm Cion Tan, a designer and developer studying Design and Artificial Intelligence at Singapore University of Technology and Design (SUTD).",
     "With experience spanning product management at Coffee Meets Bagel, product development at CPFB, and computational design at Whitby Wood Mills, I bring a multidisciplinary approach to solving complex problems.",
@@ -219,6 +209,7 @@ type CaseStudySection = {
   title: string;
   description?: string;
   image?: string;
+  galleryImages?: string[];
   theme?: "default" | "muted" | "dark";
   cardColumns?: 1 | 2;
   cards?: Array<{
@@ -250,8 +241,7 @@ export const caseStudies: Record<
     title: "EnableID",
     subtitle:
       "Streamlining digital identity and resource access for refugees through a unified web platform.",
-    heroImage:
-      "https://images.unsplash.com/photo-1750056393326-8feed2a1c34f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920",
+    heroImage: "/images/case-studies/enableid-hero.svg",
     meta: [
       { label: "Timeline", values: ["16 Weeks", "Spring 2024"] },
       { label: "Role", values: ["Frontend Developer", "UI/UX Designer", "QA Engineer"] },
@@ -370,25 +360,28 @@ export const caseStudies: Record<
     title: "AI Ah Ma",
     subtitle:
       "Bridging generations through AI-powered Cantonese learning with cultural empathy.",
-    heroImage:
-      "https://images.unsplash.com/photo-1516321497487-e288fb19713f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920",
+    heroImage: "/images/case-studies/ai-ah-ma/cover.png",
     meta: [
       { label: "Timeline", values: ["12 Weeks", "Fall 2024"] },
       { label: "Role", values: ["Team Lead", "UX Designer", "Researcher"] },
       { label: "Team", values: ["HCI Module", "Team of 4"] },
-      { label: "Tools", values: ["Figma", "Paper Prototyping"] },
+      { label: "Tools", values: ["Figma", "Paper Prototyping", "Wizard of Oz"] },
     ],
     sections: [
       {
         kicker: "Overview",
         title: "A warmer model for language learning",
         description:
-          "AI Ah Ma reframes language learning as an emotionally resonant conversation with a virtual grandmother rather than a checklist of lessons.",
+          "AI Ah Ma reframes Cantonese learning as an emotionally resonant conversation with a virtual grandmother, shifting the experience away from drills and toward authentic intergenerational connection.",
         theme: "muted",
         cards: [
           {
             title: "Leadership",
             body: "I led the team across user research, framing, prototyping, and iteration through three major design phases.",
+          },
+          {
+            title: "Project framing",
+            body: "The project was framed around authentic human connection across generations, not just memorization or lesson completion.",
           },
         ],
       },
@@ -424,20 +417,91 @@ export const caseStudies: Record<
         ],
       },
       {
-        kicker: "Design Evolution",
-        title: "From gamified lessons to real-time conversation support",
+        kicker: "Design Process",
+        title: "Iteration 1: Paper prototype",
+        description:
+          "The first round tested core conversation mechanics quickly with paper screens and facilitator-driven responses.",
+        galleryImages: [
+          "/images/case-studies/ai-ah-ma/paper-1.png",
+          "/images/case-studies/ai-ah-ma/paper-2.png",
+          "/images/case-studies/ai-ah-ma/paper-3.png",
+          "/images/case-studies/ai-ah-ma/paper-4.png",
+          "/images/case-studies/ai-ah-ma/paper-5.png",
+        ],
+        theme: "muted",
         cards: [
           {
-            title: "Phase 1: Gamified learning",
-            body: "The initial concept borrowed heavily from standard language-app progression and rewards.",
+            title: "What worked",
+            body: "Users responded well to delayed answer suggestions, speech-only input, replayable audio, and Romanized Cantonese support because those features preserved challenge while reducing anxiety.",
+            bullets: [
+              "Delayed prompts balanced guidance with motivation.",
+              "Spoken responses encouraged active practice and retention.",
+              "Replay improved pronunciation and comprehension.",
+              "Romanization made new words easier to recognize.",
+            ],
           },
           {
-            title: "Phase 2: Reality check",
-            body: "User interviews showed that finishing lessons did not translate into confidence during real family conversations.",
+            title: "What broke",
+            body: "The paper flow also exposed friction. Users disliked hidden chat history, missing progress signals, and narrow suggested replies when they wanted to steer the conversation themselves.",
+            bullets: [
+              "Separate chat-history navigation felt unnatural.",
+              "No visible progress reduced momentum.",
+              "Limited suggestions made the conversation feel constrained.",
+            ],
+          },
+        ],
+      },
+      {
+        kicker: "Design Process",
+        title: "Iteration 2: Figma prototype",
+        description:
+          "The second iteration translated those insights into higher-fidelity flows using a Wizard of Oz prototype to simulate richer interactions.",
+        galleryImages: [
+          "/images/case-studies/ai-ah-ma/iteration-2-a.png",
+          "/images/case-studies/ai-ah-ma/iteration-2-b.png",
+        ],
+        cards: [
+          {
+            title: "Prototype goals",
+            body: "This phase focused on proving the feature set through realistic mockups rather than polished engineering.",
+            bullets: [
+              "Dual-speed audio playback",
+              "Dropdown translations",
+              "Integrated hints",
+              "Translation notepad support",
+            ],
           },
           {
-            title: "Phase 3: Live transcript support",
-            body: "The final pivot introduced real-time translation support so users could learn while having actual conversations.",
+            title: "Design changes",
+            body: "Three concrete revisions came out of user feedback: a progress bar for motivation, a chat screen redesigned around familiar messaging patterns, and a notepad for drafting what to say before recording speech.",
+          },
+        ],
+      },
+      {
+        kicker: "Design Process",
+        title: "Iteration 3: Interactive application",
+        description:
+          "The final iteration prioritised working AI-backed interactions so users could experience the actual promise of the product, not just static screens.",
+        galleryImages: [
+          "/images/case-studies/ai-ah-ma/iteration-3-a.png",
+          "/images/case-studies/ai-ah-ma/iteration-3-b.png",
+        ],
+        theme: "muted",
+        cards: [
+          {
+            title: "Implemented experience",
+            body: "This build centered on personalised, dynamic interaction with the virtual grandmother persona.",
+            bullets: [
+              "Dynamic hints",
+              "Dual-speed audio playback",
+              "Responsive reply system",
+              "Dropdown translations",
+              "Voice recording for Cantonese input",
+            ],
+          },
+          {
+            title: "Why it mattered",
+            body: "This is where the concept moved from a language-learning interface into a relational product. Users could finally feel the app's intended blend of guidance, warmth, and conversational realism.",
           },
         ],
       },
@@ -471,6 +535,7 @@ export const caseStudies: Record<
         paragraphs: [
           "The strongest insight was that AI can create emotionally resonant experiences, not just efficient ones.",
           "By supporting real conversations, the product shifts from practice-first to connection-first learning.",
+          "The strongest direction was not more gamification, but better support during authentic, messy, human conversation.",
         ],
       },
       {
@@ -493,8 +558,7 @@ export const caseStudies: Record<
     title: "Urban Research Assistant",
     subtitle:
       "Using AI to detect discrepancies between official city reports and public sentiment.",
-    heroImage:
-      "https://images.unsplash.com/photo-1771922748624-b205cf5d002d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920",
+    heroImage: "/images/case-studies/urban-research-assistant-hero.svg",
     meta: [
       { label: "Timeline", values: ["14 Weeks", "Spring 2024"] },
       { label: "Role", values: ["UX Researcher", "Frontend Developer", "UI Designer"] },

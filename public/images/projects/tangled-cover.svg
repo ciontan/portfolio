@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200">
+  <rect width="1600" height="1200" fill="#f2eee7"/>
+  <rect x="130" y="90" width="1340" height="1020" rx="56" fill="#fffdf9" stroke="#1f2937" stroke-opacity=".08"/>
+  <path d="M250 820c180-220 300-320 470-320s260 170 420 170 250-80 320-170" fill="none" stroke="#d97757" stroke-width="44" stroke-linecap="round"/>
+  <path d="M250 420c180 220 300 320 470 320s260-170 420-170 250 80 320 170" fill="none" stroke="#1f2937" stroke-opacity=".16" stroke-width="24" stroke-linecap="round"/>
+  <text x="220" y="270" fill="#111827" font-family="Arial, sans-serif" font-size="74" font-weight="700">Tangled</text>
+  <text x="220" y="1010" fill="#6b7280" font-family="Arial, sans-serif" font-size="42">Replace with your real project cover image</text>
+</svg>

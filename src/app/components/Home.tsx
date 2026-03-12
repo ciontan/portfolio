@@ -41,7 +41,7 @@ export function Home() {
             <div className="absolute -left-10 bottom-8 hidden h-56 w-56 rounded-full bg-[var(--color-rust)]/20 blur-3xl lg:block" />
             <div className="relative aspect-[4/5] w-full max-w-xl overflow-hidden rounded-[2rem] border border-black/8 bg-white p-3 shadow-[0_30px_90px_rgba(18,22,31,0.12)]">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1709803312782-0c3b175875ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHdvcmtzcGFjZSUyMGRlc2lnbmVyfGVufDF8fHx8MTc3MzE4ODQ2NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="/images/profile/workspace-hero.svg"
                 alt="Creative workspace"
                 className="h-full w-full rounded-[1.4rem] object-cover"
               />

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200">
+  <rect width="1600" height="1200" fill="#eff6ff"/>
+  <rect x="120" y="120" width="1360" height="960" rx="52" fill="#ffffff"/>
+  <text x="180" y="310" fill="#2563eb" font-family="Arial, sans-serif" font-size="58" font-weight="700">CPFB</text>
+  <text x="180" y="400" fill="#111827" font-family="Arial, sans-serif" font-size="78" font-weight="700">Experience Image</text>
+  <text x="180" y="970" fill="#6b7280" font-family="Arial, sans-serif" font-size="42">Replace with your internship or company image</text>
+</svg>
